@@ -129,11 +129,35 @@ a {
         padding: 150px;
     }
 
-    .log {
-        display: flex;
-        justify-content: center;
+    .nan {
+        margin: 0 auto;
+        text-align: center;
+        height: 300px;
+        width: 70%;
     }
 
-    .id {
-        
+    .manu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nano {
+        width: 80%;
+        height: 150px;
+        padding: 40px 10px;
+    }
+
+    .nano i {
+        margin-bottom: 10%;
+        background-color: rgba(13, 159, 243, 0.452);
+        height: 75px;
+        width: 75px;
+        font-size: 30px;
+        color: rgb(21, 135, 241);
+        padding: 20px;
+    }
+
+    .our {
+        display: flex;
+        justify-content: center;
     }
