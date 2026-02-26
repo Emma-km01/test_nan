@@ -161,3 +161,52 @@ a {
         display: flex;
         justify-content: center;
     }
+
+    .now {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grille {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    .petit {
+        display: flex;
+        gap: 40px;
+    }
+
+    .local {
+        display: flex;
+    }
+
+    .all {
+        margin: 0 auto;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 60px;
+        width: 130px;
+        height: 40px;
+    
+        h2 {
+            padding-top: 5px;
+        }
+    }
+
+    .explore {
+        display: flex;
+        color: rgb(250, 247, 247);
+        padding: 0 0 0 130px;
+        margin-top: -50%;
+        font-size: 200%;
+    }
+
+    .texte {
+        color: white;
+        font-size: 140%;
+    }
+        
+
+    
