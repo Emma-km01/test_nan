@@ -199,12 +199,20 @@ a {
         text-align: center;
         border: 1px solid black;
         border-radius: 60px;
-        width: 130px;
+        width: 150px;
         height: 40px;
+        position: relative;
+        top: 60px;
+        font-size: 80%;
     
         h2 {
             padding-top: 5px;
         }
+    }
+
+    .photo {
+        position: relative;
+        top: 160px;
     }
 
     .explore {
@@ -212,13 +220,20 @@ a {
         color: rgb(250, 247, 247);
         padding: 0 0 0 130px;
         margin-top: -30%;
-        font-size: 250%;
+        font-size: 300%;
+        position: relative;
+        top: -150px;
+        margin-left: 50px;
     }
 
     .ligne {
+        position: relative;
+        z-index: 2;
         height: 1px;
-        width: 40px;
-        color: blueviolet;
+        width: 82%;
+        border-bottom: 2px solid rgb(248, 244, 244);
+        margin-left: 180px;
+        top: -70px;
     }
 
     .texte {
@@ -227,23 +242,92 @@ a {
         height: 40%;
         width: 25%;
         margin-left: 100px;
-        padding-top: 90px;
+        margin-top: -50px;
+        transform: translate(90px);
     }
 
     .see {
-        color: black;
-        height: 50%;
-        width: 150px;
-        padding-top: 50px;
-        border: 1px solid rgb(244, 233, 233);
-        border-radius: 60px;
+        height: 50px;
+        width: 160px;
+        border-radius: 50px;
         background-color: white;
         justify-content: center;
+        display: flex;
+        margin-top: 5%;
+        color: black;
+        font-size: 60%;
+        align-items: center;
     }
-    .appart{
-        p{
-            top: 55px;
+
+    .etoile {
+        transform: translateY(-240px);
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.432);
+        color: white;
+        width: 55px;
+        height: 30px;
+    }
+
+    .picture {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: 50%;
+        margin-top: -15%;
+    }
+
+    .txt {
+        color: white;
+    }
+
+    .feature {
+        display: flex;
+        position: relative;
+        top: 300px;
+        margin-left: 12%;
+        font-size: 130%;
+
+        button {
+            position: relative;
+            left: 70%;
+            width: 40px;
+            border-radius: 20%;
+            border-color: rgba(0, 0, 0, 0.11);
         }
+    }
+
+    .news {
+        display: flex;
+        position: relative;
+        top: 350px;
+    }
+
+    .programe {
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.055);
+        height: 150%;
+        width: 80%;
+        box-shadow: 0 0 10px 10px rgba(194, 189, 189, 0.103);
+        
+        
+    }
+
+    .more {
+        display: flex;
+        color: rgb(0, 47, 255);
+        font-size: 20px;
+        margin-left: ;
+    }
+
+    .seemo p {
+        background-color: rgb(239, 239, 243);
+        border: 1px solid blue;
+        border-radius: 90px;
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        margin-left: ;
     }
 
     
