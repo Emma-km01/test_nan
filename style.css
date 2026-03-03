@@ -5,13 +5,14 @@
  }
  
  header {
-    background-image: url(Images/image\ 7.png);
+    background-image: url(./Images/image\ 7.png);
     height: 800px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
+    
 }
 
 body {
@@ -69,7 +70,7 @@ a {
         display: flex;
         color: rgb(8, 159, 196);
         padding: 200px 0 0 0;
-        margin-top: -13%;
+        margin-top: -18%;
     }
 }
 
@@ -162,6 +163,10 @@ a {
         justify-content: center;
     }
 
+    .patenaire {
+        display: flex;
+    }
+
     .now {
         display: flex;
         justify-content: center;
@@ -172,6 +177,7 @@ a {
         align-items: center;
         gap: 20px;
         padding: 20px;
+        margin-left: 5%;
     }
     
     .appart image {
@@ -317,7 +323,6 @@ a {
         display: flex;
         color: rgb(0, 47, 255);
         font-size: 20px;
-        margin-left: ;
     }
 
     .seemo p {
@@ -327,7 +332,145 @@ a {
         font-size: 30px;
         width: 40px;
         height: 40px;
-        margin-left: ;
     }
 
+    /* Testimonials */
+.testimonials { 
+    background: url('./Images/image1\(1\).jpeg') center/cover; 
+    padding: 100px 0; 
+    position: relative;
+    position: relative;
+    margin-top: 700px;
+    min-height: 500px;
+    border-radius: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/image1\(1\).jpeg);
+}
+.section-header {
+    margin-top: -280px;
+    font-size: 30px;
     
+    }
+
+.testimonial-grid { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    margin-top: 50px;
+}
+.testimonial-card { 
+    background: white; 
+    padding: 40px 20px 20px; 
+    border-radius: 15px; 
+    text-align: center; 
+    position: relative;
+    width: 340px;
+    height: 230px;
+    position: relative;
+    top: 10px;
+    margin-right: -10px;
+    margin: -20px;
+    right: 90px;
+    
+}
+.avatar { 
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: -30px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    border: 3px solid white;
+    position: absolute;
+    
+}
+
+/* Newsletter Box */
+.newsletter { 
+    padding: 80px 0; 
+}
+.newsletter-box { 
+    display: flex; 
+    background: #f9f9f9; 
+    border-radius: 30px; 
+    overflow: hidden; 
+    max-width: 1070px; 
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.newsletter-img { 
+    width: 40%; 
+    background: url(./Images/Rectangle\ 45.png);
+    min-height: 350px;
+}
+.newsletter-content { 
+    width: 60%; 
+    padding: 40px; 
+    align-self: center; 
+    font-size: 25px;
+    text-align: center;
+}
+.input-group { 
+    display: flex; 
+    background: white; 
+    padding: 5px; 
+    border-radius: 50px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-top: 25px;
+}
+.input-group input { 
+    border: none; 
+    padding: 15px; 
+    flex-grow: 1; 
+    font-size: 15px; 
+}
+.input-group button { 
+    background: #4a90a4; 
+    color: white; 
+    border: none; 
+    padding: 0 25px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    font-size: 15px;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    min-height: 400px;
+    margin-top: 390p;
+    background-color: black; 
+    color: white; 
+    padding: 60px 0 20px;
+    font-size: 20px; 
+}
+.footer-grid { 
+    display: flex; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px; 
+    margin-bottom: 40px; 
+    margin-top: -80px;
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+}
+.footer-col h4 { 
+    margin-bottom: 20px; 
+}
+.footer-col ul {
+     list-style: none;
+}
+.footer-col a { color: #888; 
+    text-decoration: none; 
+    line-height: 2; 
+    position: relative;
+    
+}
+.footer-bottom { 
+    border-top: 1px solid #333; 
+    padding-top: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 250px;
+}
